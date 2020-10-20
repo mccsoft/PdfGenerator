@@ -1,0 +1,13 @@
+{
+    "Date_Range": "Plage de dates",
+    "Graph_Title": "Vitesse du vent pendant deux jours ",
+    "Graph_Subtitle": "13 et 14 février 2018 à deux endroits à Vik i Sogn, Norvège",
+    "YAxis_Text": "Vitesse du vent (m / s) ",
+    "Light_Air": "Air léger ",
+    "Light_Breeze": "Légère brise ",
+    "Gentle_Breeze": "Petite brise",
+    "Moderate_Breeze": "Brise legère",
+    "Fresh_Breeze": "Brise fraîche",
+    "Strong_Breeze": "Forte brise ",
+    "High_Wind": "Vent fort"
+}

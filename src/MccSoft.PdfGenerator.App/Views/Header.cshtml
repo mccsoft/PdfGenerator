@@ -1,0 +1,22 @@
+@model MccSoft.PdfGenerator.App.Views.Models.HeaderModel
+@{
+    Layout = "./_Layout.cshtml";
+}
+
+<style>
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 2.5%;
+        padding-top: 2mm;
+        height: 6mm;
+        width: calc(99% - (11mm * 2));
+    }
+</style>
+
+<div class="header">
+    <div>
+        <div class="header">@Model.Header</div>
+    </div>
+</div>

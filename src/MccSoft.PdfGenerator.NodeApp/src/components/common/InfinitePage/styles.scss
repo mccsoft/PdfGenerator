@@ -1,0 +1,55 @@
+$portrait-page-width: 210mm;
+$landscape-page-width: 297mm;
+$canvas-padding: 11mm;
+
+@media all {
+  .infinity-page-content {
+    display: block;
+
+    .infinity-page-content-tr, .infinity-page-content-td {
+      display: block;
+    }
+  }
+}
+
+@media print {
+  body {
+    margin: 0;
+    -webkit-print-color-adjust: exact;
+  }
+
+  div {
+    float: none !important;
+  }
+
+  .landscape-infinity-page, .portrait-infinity-page {
+    width: 100%;
+    page-break-after: always;
+  }
+
+  .infinity-page-header {
+    display: table-header-group;
+  }
+
+  .infinity-page-footer {
+    display: table-footer-group;
+  }
+}
+
+@media screen {
+  .landscape-infinity-page {
+    width: $landscape-page-width;
+    padding-left: $canvas-padding;
+    padding-right: $canvas-padding;
+    margin: 2mm auto;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+  }
+  .portrait-infinity-page {
+    width: $portrait-page-width;
+    padding-left: $canvas-padding;
+    padding-right: $canvas-padding;
+    margin: 2mm auto;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+  }
+}
+

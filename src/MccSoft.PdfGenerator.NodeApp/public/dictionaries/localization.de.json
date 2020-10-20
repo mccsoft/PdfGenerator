@@ -1,0 +1,13 @@
+{
+    "Date_Range": "Datumsbereich",
+    "Graph_Title": "Windgeschwindigkeit während zwei Tagen",
+    "Graph_Subtitle": "13. und 14. Februar 2018 an zwei Standorten in Vik i Sogn, Norwegen",
+    "YAxis_Text": "Windgeschwindigkeit (m / s)",
+    "Light_Air": "Leichte Luft ",
+    "Light_Breeze": "Leichte Brise",
+    "Gentle_Breeze": "Leichte Briese",
+    "Moderate_Breeze": "Mäßige Brise",
+    "Fresh_Breeze": "Frische Briese",
+    "Strong_Breeze": "Starke Brise ",
+    "High_Wind": "Starker Wind"
+}

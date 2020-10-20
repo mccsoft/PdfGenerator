@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "MccSoft.PdfGenerator.App": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "api",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://*:9991",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:9991/"
+    }
+  }
+}

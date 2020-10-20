@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin"
+      }
+    ],
+    "target": "ES2018",
+    "module": "commonjs",
+    "lib": [
+      "dom",
+      "es2018"
+    ],
+    "jsx": "react",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "alwaysStrict": true,
+    "baseUrl": "./src",
+    "paths": {
+      "~/colors.scss": [
+        "./colors.scss"
+      ],
+      "~/constants": [
+        "./constants"
+      ],
+      "~charts/*": [
+        "components/charts/*"
+      ],
+      "~common/*": [
+        "components/common/*"
+      ],
+      "~sections/*": [
+        "components/sections/*"
+      ],
+      "~containers/*": [
+        "containers/*"
+      ],
+      "~contexts": [
+        "contexts"
+      ],
+      "~typings/*": [
+        "typings/*"
+      ],
+      "~utils/*": [
+        "utils/*"
+      ]
+    },
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

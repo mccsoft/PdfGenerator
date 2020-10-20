@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Description>
+      Creates a TypeScript file with the DTO for report data.
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Reinforced.Typings" Version="1.5.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MccSoft.PdfGenerator.Dto\MccSoft.PdfGenerator.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

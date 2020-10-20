@@ -1,0 +1,65 @@
+@model MccSoft.PdfGenerator.App.Views.Models.FooterModel
+@{
+    Layout = "./_Layout.cshtml";
+}
+<style>
+    .footer {
+        padding-left: 2.5%;
+        padding-bottom: 3mm;
+        height: 12mm;
+        width: calc(99% - (11mm * 2));
+    }
+
+    .footer-line {
+        height: 1.5mm;
+        margin-bottom: 1.5mm;
+        border-radius: 2px;
+        background-color: #c7c8ca;
+    }
+
+    .footer-body {
+        height: 9mm;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-logo { height: inherit; }
+
+    .footer-report {
+        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-report-page {
+        width: 22px;
+        margin-left: 5mm;
+        font-size: 9pt;
+    }
+
+    .footer-field {
+        padding: 0.3mm 0;
+        font-size: 6pt;
+    }
+</style>
+
+<div class="footer">
+    <div class="footer-line"></div>
+
+    <div class="footer-body">
+        @* ReSharper disable once MissingAltAttributeInImgTag *@
+        <img class="footer-logo" src="data:image/png;base64,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
+">
+
+        <div class="footer-report">
+            <div>
+                <div class="footer-field">
+                    @Model.CreatedAt.ToString("g")
+                </div>
+            </div>
+            <div class="footer-report-page"></div>
+        </div>
+    </div>
+</div>

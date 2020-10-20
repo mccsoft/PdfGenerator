@@ -1,0 +1,11 @@
+$LayoutLight: #e6e7e9;
+$LayoutDark: #959595;
+$TextColor: #353535;
+
+
+//noinspection ALL
+:export {
+  LayoutLight: $LayoutLight;
+  TextColor: $TextColor;
+  LayoutDark: $LayoutDark;
+}

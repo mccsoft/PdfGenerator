@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        @@font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 100;
+          src: local('Roboto Thin'), local('Roboto-Thin')
+        }
+
+        @@font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 300;
+          src: local('Roboto Light'), local('Roboto-Light');
+        }
+
+        @@font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          src: local('Roboto'), local('Roboto-Regular');
+        }
+
+        @@font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 500;
+          src: local('Roboto Medium'), local('Roboto-Medium');
+        }
+
+        @@font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          src: local('Roboto Bold'), local('Roboto-Bold');
+        }
+
+        @@font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 900;
+          src: local('Roboto Black'), local('Roboto-Black');
+        }
+
+        @@font-face {
+            font-family: 'NotoSansSC-Regular';
+            font-style: normal;
+            font-weight: 400;
+            src: local('NotoSansSC Regular'), local('NotoSansSC-Regular');
+        }
+
+        @@font-face {
+            font-family: 'NotoSansJP-Regular';
+            font-style: normal;
+            font-weight: 400;
+            src: local('NotoSansJP Regular'), local('NotoSansJP-Regular');
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-size: 7pt;
+            font-weight: 400;
+            font-family: 'Roboto', 'NotoSansSC-Regular', 'NotoSansJP-Regular', sans-serif;
+            padding-left: 11mm;
+            padding-right: 11mm;
+            -webkit-print-color-adjust: exact;
+        }
+    </style>
+</head>
+<body>
+    @RenderBody()
+</body>
+</html>

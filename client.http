@@ -1,0 +1,9 @@
+@language=en
+@startDate=2020-08-07T00:00:00
+@endDate=2020-08-07T00:00:00
+@userReportCreationTime=2020-08-07T00:00:00
+POST http://localhost:9991/api/report/generate/
+?language={{language}}
+&startDate={{startDate}}
+&endDate={{endDate}}
+&userReportCreationTime={{userReportCreationTime}}

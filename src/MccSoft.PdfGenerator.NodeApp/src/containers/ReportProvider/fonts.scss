@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black');
+}
+
+@font-face {
+  font-family: 'NotoSansSC-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans SC Regular'), local('NotoSansSC-Regular');
+}
+
+@font-face {
+  font-family: 'NotoSansJP-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Japanese Regular'), local('NotoSansJapanese-Regular');
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Korean Regular'), local('NotoSansKorean-Regular');
+}
+
+body {
+  font-family: 'Roboto', 'NotoSansSC-Regular', 'NotoSansJP-Regular', 'NotoSansKR-Regular', sans-serif;
+  font-weight: 400;
+  font-size: 9pt;
+}

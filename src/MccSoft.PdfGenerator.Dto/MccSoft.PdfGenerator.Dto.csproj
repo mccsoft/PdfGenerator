@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Description>
+            Defines the data transfer object that contains the report data.
+        </Description>
+    </PropertyGroup>
+
+</Project>

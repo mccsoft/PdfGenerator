@@ -1,0 +1,140 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react"
+  ],
+  "lintOptions": {
+    "typeCheck": true
+  },
+  "defaultSeverity": "warn",
+  "rules": {
+    "missing-jsdoc": false,
+    "no-return-await": true,
+    "no-console": false,
+    "no-empty": false,
+    "jsx-alignment": true,
+    "arrow-parens": false,
+    "arrow-return-shorthand": [
+      false
+    ],
+    "comment-format": [
+      true,
+      "check-space"
+    ],
+    "import-blacklist": [
+      true,
+      "rxjs"
+    ],
+    "import-spacing": true,
+    "interface-over-type-literal": false,
+    "interface-name": false,
+    "indent": [
+      true,
+      "spaces",
+      4
+    ],
+    "max-line-length": [
+      true,
+      100
+    ],
+    "max-classes-per-file": false,
+    "member-access": false,
+    "member-ordering": [
+      true,
+      {
+        "order": "fields-first"
+      }
+    ],
+    "newline-before-return": false,
+    "no-any": false,
+    "no-empty-interface": false,
+    "no-implicit-dependencies": [
+      true,
+      ["~common", "~sections", "~charts", "~containers", "~contexts", "~typings", "~utils", "~"],
+      "dev"
+    ],
+    "no-import-side-effect": [
+      true,
+      {
+        "ignore-module": "\\.(css|scss)$"
+      }
+    ],
+    "no-inferrable-types": [
+      true,
+      "ignore-params",
+      "ignore-properties"
+    ],
+    "no-invalid-this": [
+      true,
+      "check-function-in-method"
+    ],
+    "no-null-keyword": false,
+    "no-require-imports": false,
+    "no-submodule-imports": [
+      false
+    ],
+    "no-this-assignment": [
+      true,
+      {
+        "allow-destructuring": true
+      }
+    ],
+    "no-trailing-whitespace": true,
+    "object-literal-sort-keys": false,
+    "object-literal-shorthand": false,
+    "one-variable-per-declaration": [
+      false
+    ],
+    "only-arrow-functions": [
+      true,
+      "allow-declarations"
+    ],
+    "ordered-imports": [
+      false
+    ],
+    "prefer-method-signature": false,
+    "prefer-template": [
+      true,
+      "allow-single-concat"
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "semicolon": [
+      true,
+      "always",
+      "ignore-bound-class-methods"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "singleline": "never",
+        "multiline": "always",
+        "esSpecCompliant": true
+      }
+    ],
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "type-literal-delimiter": true,
+    "typedef": [
+      true,
+      "parameter",
+      "property-declaration"
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case",
+      "allow-snake-case",
+      "allow-leading-underscore"
+    ],
+    // tslint-react
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false
+  }
+}
